@@ -5,3 +5,14 @@ data = np.loadtxt(
     delimiter=','
 )
 import matplotlib as plt
+ave_inflammation = np.mean(
+data,
+axis=0
+
+)
+
+plt.plot(ave_inflammation)
+
+ave_inflammation=variable
+
+
