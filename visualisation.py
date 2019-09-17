@@ -13,6 +13,12 @@ axis=0
 
 plt.plot(ave_inflammation)
 
-ave_inflammation=variable
+ave_inflammation = np.max(
+data,
+axis=0
+
+)
+
+plt.plot(ave_inflammation)
 
 
